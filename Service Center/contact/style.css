@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #135fed;
+}
+/*......................................................................start Navbar..........................................................*/
+.d-flex{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+.marquee
+{
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+}
+.carousel-inner
+{
+    font-style: italic;
+    font-weight: bold;
+
+}
+.logo
+{
+    height: 100px;
+    width: 200;
+}
+.nav-item
+{
+    margin: 5px;
+    padding: 0px;
+    box-shadow:red;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+.carousel-indicators
+{
+    background-color: none;
+}
+ .visually-hidden
+{
+    color: rgb(255, 0, 17);
+}
+.
+/*..................................................................end Navbar......................................................*/
+/*................................................................start contact.....................................................*/
+.our
+{
+    font-weight: bold;
+    color: red;
+}
+.word{
+    color: blue;
+}
+.contact
+{
+    font-weight: bold;
+    color: brown;
+}
+.maa
+{
+    font-weight: bold;
+    color: rgb(238, 20, 238);
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*......................................................end contact.........................................................*/
+/*.....................................................start footer..........................................................*/
+footer{
+    background: rgb(44, 42, 42);
+    height: auto;
+    width: 98.8vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    min-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 1;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color 0.4s ease; 
+}
+.socials a:hover i{
+    color: rgb(255, 0, 0);
+    padding-left: 8px;
+}
+.socials a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-bottom{
+    background: rgb(11, 11, 11);
+    width: 98.8vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-weight: 200;
+}
+/*...........................................................end footer...........................................................*/
+/*..........................................................start team member.....................................................*/
+ 
+.service{
+    background-color: #d4f9d4;
+   
+}
+.service h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.team{
+    font-family: 'Tapestry', cursive;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_member{
+    background: rgb(230, 227, 233);
+    margin: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #d008f3;
+    position: relative;
+}
+.team .team_member h3{
+    color: #12f90e;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.team .team_member p.role{
+    color: rgb(246, 14, 14);
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-weight: bold;
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50px);
+    background: #fff;
+}
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+/*..........................................................end team member.........................................................*/
+/*..........................................................Start Our Service.........................................................*/
+ 
+.member{
+    background-color: #e0adfb;;
+}
+.member h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.ours{
+    font-family: 'Tapestry', cursive;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ours .ours_service {
+    background: rgb(216, 178, 178);
+    margin:30px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 0px;
+    line-height: 20px;
+    color: #5e08f3;
+    position: relative;
+}
+.ours .ours_service h3{
+    color: #f90e0e;
+    font-size: 26px;
+    margin-top: 50px;
+}
+/*..........................................................End Our Service.........................................................*/
+
+/*..........................................................start About.........................................................*/
